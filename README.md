@@ -5,7 +5,7 @@ Also, I"ll define a nix-shells development environment to create a virtual one f
 
 ---
 
-### Usage:  
+## Usage:  
 
 #### NixOS Configuration:
 
