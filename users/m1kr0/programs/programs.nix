@@ -18,7 +18,7 @@
         clang_11
         valgrind
         gdb
-        
+
         python3
 
         firefox
