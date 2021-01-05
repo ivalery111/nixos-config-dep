@@ -12,6 +12,8 @@
     # Video
     pkgs.vlc
 
+    # Utils
+    pkgs.unzip
   ];
 
   # Home Manager needs a bit of information about you and the
@@ -38,6 +40,26 @@
       pkgs.vimPlugins.nerdtree
     ];
   };
+
+  programs.ssh.enable = true;
+
+  programs.zsh = {
+    enable = true;
+
+    enableAutosuggestions = true;
+
+    oh-my-zsh = {
+      enable = true;
+
+      plugins = [
+        "git"
+      ];
+
+      theme = "agnoster";
+    };
+  };
+
+  programs.htop.enable = true;
 
   # This value determines the Home Manager release that your
   # configuration is compatible with. This helps avoid breakage
