@@ -7,7 +7,7 @@
   home.packages = [
 
     # Editors
-    vscodium
+    pkgs.vscodium
 
     # Video
     pkgs.vlc
