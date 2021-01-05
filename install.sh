@@ -12,6 +12,9 @@ sudo mkdir -p /etc/nixos/nixos-conf
 sudo mkdir -p /etc/nixos/nixos-conf/services
 sudo cp -ur system/services/* /etc/nixos/nixos-conf/services/
 
+sudo mkdir -p /etc/nixos/nixos-conf/users
+sudo cp -ur system/users/* /etc/nixos/nixos-conf/users/
+
 echo "[I]: End of setting up the nix configuration"
 
 echo "[I]: Setting up the Home Manager"
