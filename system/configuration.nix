@@ -7,7 +7,8 @@
 {
     imports = [
         ./hardware-configuration.nix
-        
+
+        ./nixos-conf/users/users.nix
         ./nixos-conf/services/services.nix
     ];
 }
