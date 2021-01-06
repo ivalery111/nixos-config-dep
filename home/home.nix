@@ -4,6 +4,10 @@
   # Let Home Manager install and manage itself.
   programs.home-manager.enable = true;
 
+  imports = [
+    ./programs/neovim/default.nix
+  ];
+
   home.packages = [
 
     # Editors
@@ -14,6 +18,12 @@
 
     # Utils
     pkgs.unzip
+
+    # Browsers
+    pkgs.firefox
+    pkgs.brave
+
+    pkgs.tmux
   ];
 
   # Home Manager needs a bit of information about you and the
@@ -23,23 +33,23 @@
 
   programs.git = {
     enable = true;
-    
+
     package = pkgs.gitAndTools.gitFull;
 
     userName = "Valery Ivanov";
     userEmail = "ivalery111@gmail.com";
   };
 
-  programs.neovim = {
-    enable = true;
-
-    vimAlias = true;
-
-    plugins = [
-      pkgs.vimPlugins.vim-nix
-      pkgs.vimPlugins.nerdtree
-    ];
-  };
+#  programs.neovim = {
+#    enable = true;
+#
+#    vimAlias = true;
+#
+#    plugins = [
+#      pkgs.vimPlugins.vim-nix
+#      pkgs.vimPlugins.nerdtree
+#    ];
+#  };
 
   programs.ssh.enable = true;
 
