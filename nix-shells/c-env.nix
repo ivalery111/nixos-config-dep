@@ -12,6 +12,9 @@
         pkgs.buildPackages.valgrind
         pkgs.buildPackages.gdb
 
-        pkgs.buildPackages.cmake 
+        pkgs.buildPackages.cmake
+
+        pkgs.bear # Generates a compilation database for clang tooling
+        pkgs.ctags
       ];
   }
