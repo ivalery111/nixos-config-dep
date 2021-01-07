@@ -28,6 +28,7 @@ let
     vim-nix                 # nix support (highlighting, etc)
     vim-tmux                # syntax highlighting for tmux conf file and more
     vim-gitgutter
+    vim-clang-format
   ] ++ overriddenPlugins;
 
   baseConfig = builtins.readFile ./config.vim;
