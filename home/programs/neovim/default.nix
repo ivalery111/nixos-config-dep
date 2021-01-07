@@ -27,6 +27,7 @@ let
     vim-fugitive            # git plugin
     vim-nix                 # nix support (highlighting, etc)
     vim-tmux                # syntax highlighting for tmux conf file and more
+    vim-gitgutter
   ] ++ overriddenPlugins;
 
   baseConfig = builtins.readFile ./config.vim;
