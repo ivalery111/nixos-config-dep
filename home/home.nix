@@ -6,6 +6,7 @@
 
   imports = [
     ./programs/neovim/default.nix
+    ./programs/fish/default.nix
   ];
 
   home.packages = [
