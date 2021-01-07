@@ -18,6 +18,7 @@ let
     neomake                 # run programs asynchronously and highlight errors
     nerdcommenter           # code commenter
     nerdtree                  # tree explorer
+    nerdtree-git-latest
     vim-airline             # bottom status bar
     vim-airline-themes
     vim-easy-align          # alignment plugin

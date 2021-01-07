@@ -1,6 +1,6 @@
 # Define your custom plugins
 
-{ pkgs, buildVimPlugin }:
+{ pkgs, lib, buildVimPlugin }:
 
 {
 
@@ -15,5 +15,14 @@
 #     };
 #   };
 
+  nerdtree-git-latest = buildVimPlugin {
+    name = "nerdtree-git-latest";
+    src = pkgs.fetchFromGitHub {
+      owner = "Xuyuanp";
+      repo = "nerdtree-git-plugin";
+      rev = "6b843d3742d01b98a229ed2e6d3782f6d3f21651";
+      sha256 = "10mc9ir2h9swbyqfvg4gl3qkyc95s478wfl449zypsjnfisq7526";
+    };
+  };
 }
 
