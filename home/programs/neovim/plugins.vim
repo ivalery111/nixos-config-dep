@@ -42,17 +42,17 @@ let g:NERDTreeDirArrows = 1
 filetype plugin on
 
 " Nerdtree git plugin symbols
-" let g:NERDTreeGitStatusIndicatorMapCustom = {
-"     \ "Modified"  : "ᵐ",
-"     \ "Staged"    : "ˢ",
-"     \ "Untracked" : "ᵘ",
-"     \ "Renamed"   : "ʳ",
-"     \ "Unmerged"  : "ᶴ",
-"     \ "Deleted"   : "ˣ",
-"     \ "Dirty"     : "˜",
-"     \ "Clean"     : "ᵅ",
-"     \ "Unknown"   : "?"
-"     \ }
+ let g:NERDTreeGitStatusIndicatorMapCustom = {
+     \ "Modified"  : "ᵐ",
+     \ "Staged"    : "ˢ",
+     \ "Untracked" : "ᵘ",
+     \ "Renamed"   : "ʳ",
+     \ "Unmerged"  : "ᶴ",
+     \ "Deleted"   : "ˣ",
+     \ "Dirty"     : "˜",
+     \ "Clean"     : "ᵅ",
+     \ "Unknown"   : "?"
+     \ }
 
 " Start interactive EasyAlign in visual mode (e.g. vipga)
 xmap ga <Plug>(EasyAlign)
