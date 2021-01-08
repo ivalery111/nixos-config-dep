@@ -25,6 +25,7 @@
     pkgs.brave
 
     pkgs.tmux
+    pkgs.ctags
   ];
 
   # Home Manager needs a bit of information about you and the
