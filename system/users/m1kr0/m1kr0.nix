@@ -3,7 +3,7 @@
 
   users.users.m1kr0 = {
     isNormalUser = true;
-    extraGroups = [ "wheel" ];
+    extraGroups = [ "wheel" "docker" ];
     shell = pkgs.fish;
   };
 }
