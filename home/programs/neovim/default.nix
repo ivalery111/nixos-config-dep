@@ -29,6 +29,7 @@ let
     vim-tmux                # syntax highlighting for tmux conf file and more
     vim-gitgutter
     vim-clang-format
+    indentLine
     # syntastic
     gruvbox
   ] ++ overriddenPlugins;
