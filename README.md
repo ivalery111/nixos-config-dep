@@ -36,9 +36,3 @@ Feel free open the issue, PR or send me e-mail. Thank you!
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
-
-## Contact
-
-Valery - ivalery111[[@]]gmail.com  
-
----  
