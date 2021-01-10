@@ -30,6 +30,7 @@ let
     vim-gitgutter
     vim-clang-format
     # syntastic
+    gruvbox
   ] ++ overriddenPlugins;
 
   baseConfig = builtins.readFile ./config.vim;
