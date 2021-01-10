@@ -37,7 +37,7 @@ set termguicolors
 
 " Theme
 " colorscheme material
-colorscheme hybrid_material
+colorscheme gruvbox
 
 " " Other options
 syntax on
