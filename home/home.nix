@@ -27,6 +27,7 @@
     pkgs.tmux
     pkgs.ctags
    pkgs.alacritty
+   pkgs.virt-manager
   ];
 
   # Home Manager needs a bit of information about you and the
