@@ -26,6 +26,7 @@
 
     pkgs.tmux
     pkgs.ctags
+   pkgs.alacritty
   ];
 
   # Home Manager needs a bit of information about you and the
