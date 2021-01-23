@@ -20,8 +20,8 @@ echo "[I]: End of setting up the nix configuration"
 echo "[I]: Setting up the Home Manager"
 echo "[I]: ..."
 
-mkdir -p $HOME/.config/nixpkgs/
-cp -r home/* $HOME/.config/nixpkgs/
+sudo mkdir -p $HOME/.config/nixpkgs/
+sudo cp -r home/* $HOME/.config/nixpkgs/
 nix-channel --add https://github.com/nix-community/home-manager/archive/release-20.09.tar.gz home-manager
 nix-channel --update
 export NIX_PATH=$HOME/.nix-defexpr/channels${NIX_PATH:+:}$NIX_PATH
