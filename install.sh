@@ -6,7 +6,7 @@ set +x
 echo "[I]: Setting up the nix configuration"
 echo "[I]: ..."
 
-sudo mv -b /etc/nixos/configuration.nix /etc/nixos/configuration.bak
+sudo mv /etc/nixos/configuration.nix /etc/nixos/configuration.bak
 sudo cp -u system/configuration.nix /etc/nixos/
 sudo mkdir -p /etc/nixos/nixos-conf
 sudo mkdir -p /etc/nixos/nixos-conf/services
