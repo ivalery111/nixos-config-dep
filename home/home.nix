@@ -69,7 +69,7 @@
         "git"
       ];
 
-      theme = "agnoster";
+      theme = "clean";
     };
   };
 
