@@ -12,6 +12,7 @@
     ./sound/default.nix
     ./time/default.nix
     ./virt/default.nix
+    ./fonts/default.nix
   ];
 }
 
