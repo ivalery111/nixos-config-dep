@@ -116,24 +116,24 @@ nnoremap Q <Nop>
 nnoremap gQ <Nop>
 
 " " Disable arrow keys and page up / down
-noremap <Up> <nop>
-noremap <Down> <nop>
-noremap <Left> <nop>
-noremap <Right> <nop>
-inoremap <Up> <nop>
-inoremap <Down> <nop>
-inoremap <Left> <nop>
-inoremap <Right> <nop>
-vnoremap <Up> <nop>
-vnoremap <Down> <nop>
-vnoremap <Left> <nop>
-vnoremap <Right> <nop>
-noremap <PageUp> <nop>
-inoremap <PageUp> <nop>
-vnoremap <PageUp> <nop>
-noremap <PageDown> <nop>
-inoremap <PageDown> <nop>
-vnoremap <PageDown> <nop>
+"noremap <Up> <nop>
+"noremap <Down> <nop>
+"noremap <Left> <nop>
+"noremap <Right> <nop>
+"inoremap <Up> <nop>
+"inoremap <Down> <nop>
+"inoremap <Left> <nop>
+"inoremap <Right> <nop>
+"vnoremap <Up> <nop>
+"vnoremap <Down> <nop>
+"vnoremap <Left> <nop>
+"vnoremap <Right> <nop>
+"noremap <PageUp> <nop>
+"inoremap <PageUp> <nop>
+"vnoremap <PageUp> <nop>
+"noremap <PageDown> <nop>
+"inoremap <PageDown> <nop>
+"vnoremap <PageDown> <nop>
 
 " Disable mouse / touchpad (only in vim)
 set mouse=nicr
